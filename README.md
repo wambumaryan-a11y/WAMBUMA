@@ -119,7 +119,7 @@ Seafood Pasta
         <td>Pizza</td>
         <td>Fast Food</td>
         <td>300</td>
-        <td>$10</td>
+        <td>1000</td>
         <td>4.5</td>
         <td>Yes</td>
         <td>John</td>
@@ -131,7 +131,7 @@ Seafood Pasta
         <td>Burger</td>
         <td>Fast Food</td>
         <td>250</td>
-        <td>$8</td>
+        <td>800</td>
         <td>4.2</td>
         <td>Yes</td>
         <td>Mary</td>
@@ -143,7 +143,7 @@ Seafood Pasta
         <td>Pasta</td>
         <td>Italian</td>
         <td>280</td>
-        <td>$12</td>
+        <td>1200</td>
         <td>4.7</td>
         <td>Yes</td>
         <td>David</td>
@@ -155,7 +155,7 @@ Seafood Pasta
         <td>Salad</td>
         <td>Healthy</td>
         <td>150</td>
-        <td>$7</td>
+        <td>700</td>
         <td>4.3</td>
         <td>Yes</td>
         <td>Anna</td>
@@ -167,7 +167,7 @@ Seafood Pasta
         <td>Soup</td>
         <td>Starter</td>
         <td>120</td>
-        <td>$6</td>
+        <td>600</td>
         <td>4.0</td>
         <td>Yes</td>
         <td>Chris</td>
