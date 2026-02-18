@@ -31,7 +31,7 @@
 
 <!-- Line 9: Indented Quotation -->
 <blockquote>
-    At Delicious Bites, we believe food brings people together.
+    As Wambuma and team, we believe food brings people together.
     Every meal tells a story of culture, flavor, and tradition.
 </blockquote>
 
