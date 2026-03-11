@@ -1,77 +1,81 @@
-# WAMBUMA 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Cooking with Wambuma</title>
+<!-- External CSS Link -->
+<link rel="stylesheet" href="style.css">
 
-    <!-- External CSS -->
-    <link rel="stylesheet" href="styles.css">
+<!-- Internal CSS -->
+<style>
+  /* Paragraph 2 */
+  .internal-paragraph {
+    color: orange;
+    font-weight: bold;
+  }
 
-    <!-- Internal CSS -->
-    <style>
-        body {
-            text-align: center;
-            background-color: #ffe4b5; /* not white */
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+  /* Highlight 2 */
+  .internal-highlight {
+    color: green;
+  }
 
-        h2 {
-            color: darkgreen;
-        }
+  /* Building 2 */
+  .internal-building {
+    color: brown;
+  }
+</style>
+<!-- Paragraphs -->
+<p style="color: blue; font-style: italic;">Paragraph 1</p>
 
-        .container {
-            border: 2px solid black;
-            padding: 15px;
-            margin: 20px auto;
-            width: 260px;
-            background-color: white;
-            border-radius: 10px;
-        }
+<p class="internal-paragraph">Paragraph 2</p>
 
-        img {
-            width: 200px;
-            height: 150px;
-            border-radius: 8px;
-        }
-    </style>
-</head>
+<p class="external-paragraph">Paragraph 3</p>
 
-<body>
 
-    <!-- Inline CSS -->
-    <h1 style="color: red;">Cooking with Wambuma</h1>
+<!-- Highlights -->
+<h1 style="color: red;">Highlight 1</h1>
 
-    <h2>Welcome to My Cooking Website</h2>
-    <p>Enjoy delicious homemade meals 🍲</p>
+<h1 class="internal-highlight">Highlight 2</h1>
 
-    <!-- 5 Image Containers -->
+<h1 class="external-highlight">Highlight 3</h1>
 
-    <div class="container">
-    <img src="https://images.unsplash.com/photo-1604908176997-43199c1f4c3d" alt="Pilau">
-    <p>Spicy Pilau</p>
-</div>
 
-<div class="container">
-    <img src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3" alt="Chapati">
-    <p>Soft Chapati</p>
-</div>
+<!-- Buildings -->
+<h3 style="color: purple;">Building 1</h3>
 
-<div class="container">
-    <img src="https://images.unsplash.com/photo-1625944525903-b6b84d4e6c2f" alt="Ugali">
-    <p>Ugali with Sukuma</p>
-</div>
+<h3 class="internal-building">Building 2</h3>
+/* ===== Assignment Styling Using Classes and IDs ===== */
 
-<div class="container">
-    <img src="https://images.unsplash.com/photo-1599785209707-28e6d5e5b1c5" alt="Mandazi">
-    <p>Sweet Mandazi</p>
-</div>
+#main-title{
+color:#1e90ff;
+text-align:center;
+font-size:40px;
+}
 
-<div class="container">
-    <img src="https://images.unsplash.com/photo-1604908554007-9f6e3d7c3e0f" alt="Fried Rice">
-    <p>Vegetable Fried Rice</p>
-</div>
-    </div>
+.section-title{
+color:#0077cc;
+font-family:Arial;
+}
 
-</body>
-</html>
+#small-title{
+color:#004080;
+font-style:italic;
+}
+
+.food-text{
+color:#003366;
+background:#e6f2ff;
+padding:10px;
+border-radius:6px;
+margin:10px 0;
+}
+
+#special-paragraph{
+color:white;
+background:#0077cc;
+padding:12px;
+border-radius:8px;
+}
+
+#final-paragraph{
+color:#00264d;
+font-weight:bold;
+text-decoration:underline;
+}
+<h3 class="external-building">Building 3</h3>
+      
