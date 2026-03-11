@@ -1,81 +1,93 @@
-<!-- External CSS Link -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wambuma</title>
+
+<!-- External CSS -->
 <link rel="stylesheet" href="style.css">
 
 <!-- Internal CSS -->
 <style>
-  /* Paragraph 2 */
-  .internal-paragraph {
-    color: orange;
-    font-weight: bold;
-  }
 
-  /* Highlight 2 */
-  .internal-highlight {
-    color: green;
-  }
+/* Paragraph 2 */
+.internal-paragraph{
+color:orange;
+font-weight:bold;
+}
 
-  /* Building 2 */
-  .internal-building {
-    color: brown;
-  }
+/* Highlight 2 */
+.internal-highlight{
+color:green;
+}
+
+/* Building 2 */
+.internal-building{
+color:brown;
+}
+
 </style>
+
+</head>
+
+<body>
+
+<h1 id="main-title">Wambuma</h1>
+
+<h2 class="section-title">Welcome to Wambuma Food Website</h2>
+
+<h4 id="small-title">Discover Amazing Meals and Recipes</h4>
+
 <!-- Paragraphs -->
-<p style="color: blue; font-style: italic;">Paragraph 1</p>
+<p style="color:blue; font-style:italic;">
+At Wambuma, we celebrate delicious food from around the world and share simple recipes anyone can cook.
+</p>
 
-<p class="internal-paragraph">Paragraph 2</p>
+<p class="internal-paragraph">
+Our kitchen focuses on fresh ingredients, healthy cooking, and tasty homemade meals.
+</p>
 
-<p class="external-paragraph">Paragraph 3</p>
-
+<p class="external-paragraph">
+From breakfast to dinner, Wambuma offers exciting food ideas for every occasion.
+</p>
 
 <!-- Highlights -->
-<h1 style="color: red;">Highlight 1</h1>
+<h1 style="color:red;">Today's Special Dish</h1>
 
-<h1 class="internal-highlight">Highlight 2</h1>
+<h1 class="internal-highlight">Chef’s Favorite Recipe</h1>
 
-<h1 class="external-highlight">Highlight 3</h1>
+<h1 class="external-highlight">Most Popular Meal</h1>
 
+<!-- Food Sections -->
+<h3 style="color:purple;">Breakfast Corner</h3>
 
-<!-- Buildings -->
-<h3 style="color: purple;">Building 1</h3>
+<h3 class="internal-building">Lunch Specials</h3>
 
-<h3 class="internal-building">Building 2</h3>
-/* ===== Assignment Styling Using Classes and IDs ===== */
+<h3 class="external-building">Dinner Delights</h3>
 
-#main-title{
-color:#1e90ff;
-text-align:center;
-font-size:40px;
-}
+<!-- Paragraph Assignment -->
+<p class="food-text">
+Fresh vegetables and natural spices make every Wambuma recipe healthy and flavorful.
+</p>
 
-.section-title{
-color:#0077cc;
-font-family:Arial;
-}
+<p class="food-text">
+Cooking together with family creates memorable moments and delicious meals.
+</p>
 
-#small-title{
-color:#004080;
-font-style:italic;
-}
+<p id="special-paragraph">
+Our secret ingredient is passion for great food and creativity in every dish.
+</p>
 
-.food-text{
-color:#003366;
-background:#e6f2ff;
-padding:10px;
-border-radius:6px;
-margin:10px 0;
-}
+<p class="food-text">
+Explore recipes from different cultures and expand your cooking skills.
+</p>
 
-#special-paragraph{
-color:white;
-background:#0077cc;
-padding:12px;
-border-radius:8px;
-}
+<p class="food-text">
+Great food brings people together and creates unforgettable experiences.
+</p>
 
-#final-paragraph{
-color:#00264d;
-font-weight:bold;
-text-decoration:underline;
-}
-<h3 class="external-building">Building 3</h3>
-      
+<p id="final-paragraph">
+Thank you for visiting Wambuma — your home for tasty recipes and cooking inspiration.
+</p>
+
+</body>
+</html>
