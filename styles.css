@@ -1,4 +1,54 @@
-p {
-    font-size: 16px;
-    color: #333;
+/* External paragraph */
+.external-paragraph{
+color:purple;
+text-decoration:underline;
+}
+
+/* External highlight */
+.external-highlight{
+color:blue;
+}
+
+/* External building */
+.external-building{
+color:orange;
+}
+
+/* Assignment Styling Using Classes and IDs */
+
+#main-title{
+color:#1e90ff;
+text-align:center;
+font-size:40px;
+}
+
+.section-title{
+color:#0077cc;
+font-family:Arial;
+}
+
+#small-title{
+color:#004080;
+font-style:italic;
+}
+
+.food-text{
+color:#003366;
+background:#e6f2ff;
+padding:10px;
+border-radius:6px;
+margin:10px 0;
+}
+
+#special-paragraph{
+color:white;
+background:#0077cc;
+padding:12px;
+border-radius:8px;
+}
+
+#final-paragraph{
+color:#00264d;
+font-weight:bold;
+text-decoration:underline;
 }
